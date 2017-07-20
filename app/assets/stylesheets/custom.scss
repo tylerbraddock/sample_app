@@ -48,14 +48,18 @@ textarea {
   flex-direction: row;
 }
 
-.navbar .nav li a{
+.navbar li a{
   padding: 10px 15px;
   color: #999999;
 }
 
-.navbar .nav li a:hover {
+.navbar li a:hover {
   color: #fff;
   text-decoration: none;
+}
+
+nav ul {
+  margin-top: 8px;
 }
 
 /* typography */
@@ -131,7 +135,7 @@ footer {
   }
 }
 
-/*sidebar*/
+/* sidebar */
 
 aside {
   section.user_info {
@@ -162,4 +166,22 @@ aside {
 .gravatar {
   float: left;
   margin-right: 15px;
+}
+
+.gravatar_edit {
+  margin-top: 15px;
+}
+
+
+/* forms */
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+  @include box-sizing;
+}
+
+input {
+  height: auto !important;
 }
