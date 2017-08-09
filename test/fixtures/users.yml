@@ -24,8 +24,22 @@ lucy:
   activated: true
   activated_at: <%= Time.zone.now %>
 
+olivia:
+  name: Olivia Example
+  email: olivia@example.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
+
 ashton:
   name: Ashton Example
   email: ashton@example.com
   password_digest: <%= User.digest('password') %>
   activated: false
+
+annie:
+  name: Annie Example
+  email: annie@example.com
+  password_digest: <%= User.digest('password') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
