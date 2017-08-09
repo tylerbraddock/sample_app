@@ -66,3 +66,7 @@ gem 'faker'
 # Pagination
 gem 'will_paginate', '~> 3.1.1'
 gem 'bootstrap-will_paginate'
+
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'fog'
